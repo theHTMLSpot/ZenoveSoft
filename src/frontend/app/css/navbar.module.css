@@ -1,0 +1,67 @@
+/* Navbar Container */
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo, items, and CTA */
+    background-color: #2c3e50; /* Dark Slate Blue */
+    padding: 0 2%; /* Add padding to the left and right */
+}
+
+/* Navigation List */
+.navlist {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%; /* Ensure it takes up the full width */
+}
+
+/* Logo Container */
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Pushes the logo to the left */
+    height: 100%; /* Fill the height of the navbar */
+    max-width: 20%; /* Limit the maximum width of the logo container */
+}
+
+/* Logo Image */
+.logoImg {
+    max-height: 50px; /* Set a fixed maximum height */
+    width: auto; /* Maintain aspect ratio */
+}
+.navitem {
+    color: #ecf0f1; /* Light Gray */
+    font-size: 1rem; /* Adjust font size */
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: 500; /* Medium weight */
+    margin: 0 1rem; /* Space between navigation items */
+}
+
+/* CTA Section */
+.cta {
+    display: flex;
+    align-items: center;
+}
+
+/* CTA Button */
+.cta_button {
+    background-color: #e74c3c; /* Red */
+    color: #ffffff; /* White */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Adjust font size */
+    font-weight: 600; /* Bold text */
+    cursor: pointer; /* Pointer cursor for better UX */
+    padding: 0.5rem 1rem; /* Add padding for the button */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.cta_button:hover {
+    background-color: #c0392b; /* Darker Red */
+    transform: scale(1.05); /* Slight scale effect */
+}
